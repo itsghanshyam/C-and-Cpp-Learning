@@ -11,11 +11,11 @@ int main() {
     float salaryupdate;
     printf("Enter Employee details:\n");
     printf("Name:");
-    scanf("%s",&employee1.name);
+    scanf("%s",employee1.name);
     printf("Designation:");
-    scanf("%s",&employee1.designation);
+    scanf("%s",employee1.designation);
     printf("Joining Date:");
-    scanf("%s",&employee1.joining_date);
+    scanf("%s",(char*)employee1.joining_date);
     printf("Salary:");
     scanf("%f",&employee1.salary);
     printf("\n");
