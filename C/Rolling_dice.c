@@ -6,7 +6,7 @@ int main() {
     int numofrolls;
     int i;
     int diceRoll;
-    char playAgain;
+    char playagain;
 
     srand(time(NULL));
 
@@ -27,9 +27,9 @@ int main() {
         printf("-----------------------------\n");
 
         printf("Do you want to roll again? (y/n): ");
-        scanf(" %c", &playAgain);
+        scanf(" %c", &playagain);
 
-    } while (playAgain == 'y' || playAgain == 'Y');
+    } while (playagain == 'y' || playagain == 'Y');
 
     printf("Goodbye!\n");
     return 0;
